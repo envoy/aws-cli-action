@@ -1,0 +1,6 @@
+name: "aws-cli"
+description: "aws cli as github action"
+author: gp
+runs:
+  using: docker
+  image: amazon/aws-cli
