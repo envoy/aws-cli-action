@@ -4,3 +4,6 @@ author: gp
 runs:
   using: docker
   image: docker://amazon/aws-cli
+branding:
+  icon: 'terminal'
+  color: 'gray-dark'
