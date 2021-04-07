@@ -1,6 +1,15 @@
 # aws-cli-action
 
-### Usage
+### Purpose
+Use this Github Action if you have anything to do with AWS using AWS CLI in your CI/CD. It can be as simple as creating a file and pushing it to S3 bucket to all the way by creating relevant infrastructure if you need.
+
+### How does it do it?
+It internally uses AWS (officially) supported AWS-CLI container to trigger the action.
+
+### Sample Usage
+
+> Note: You can do whatever you can do with the AWS CLI in this github action. As mentioned, it internally the AWS-CLI container to do the action. No custom scripting. No incompatability issues. No issues!!! (unless AWS CLI itself has bugs)
+
 
 ```
 jobs:
